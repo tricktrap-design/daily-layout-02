@@ -1,7 +1,7 @@
 # Daily Layout No.02
 *Web adaptation (partial) of Jan Tschichold's poster for promoting his typography Transito*
 
-[Click here to see the page](https://tricktrap.mx/labs/daily-layout-01/)
+[Click here to see the page](https://tricktrap.mx/labs/daily-layout-02/)
 
 This is the second entry of Daily Layout. Today's example was easier than the first one, but I could learn a lot from it and stumbled upon an issue (still open) while using two propeties at the same time for landscape mode in mobile devices. 
 
