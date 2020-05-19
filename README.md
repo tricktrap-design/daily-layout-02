@@ -1,4 +1,4 @@
-# Daily Layout No.01
+# Daily Layout No.02
 *Web adaptation (partial) of Jan Tschichold's poster for promoting his typography Transito*
 
 [Click here to see the page](https://tricktrap.mx/labs/daily-layout-01/)
