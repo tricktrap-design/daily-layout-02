@@ -1,0 +1,30 @@
+// hide
+
+.u-hide {
+    display: none !important;
+}
+
+.u-mobile-hide {
+    @media #{$break1} {
+        display: none !important;
+    }
+}
+
+.u-desktop-hide {
+    @media #{$break2}, #{$break3} {
+        display: none !important;
+    }
+}
+
+// wrapper
+.is-wrapped {
+    // Test
+    background: blue;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    @media #{$break2}, #{$break3} {
+        // Test
+        background: greenyellow;
+    }
+}

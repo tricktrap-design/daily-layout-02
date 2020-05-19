@@ -1,0 +1,110 @@
+.grid-container {
+    background: url("../../../img/bg-texture.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    max-height: 100vh;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-rows: repeat(8, min-content) minmax(1fr, 150px);
+}
+
+.title {
+    font-family: 'Poppins';
+    color: $c-blue;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-bottom: 35px;
+}
+
+.title__text {
+    font-size: 30rem;
+    line-height: 33px;
+}
+
+.is-right {
+    text-align: right;
+}
+
+.txt {
+    padding: 0 5px;
+}
+.txt--p {
+    font-size: clamp(25rem, 3vw, 34rem);
+    margin-bottom: 6vh;
+
+    @media #{$break0} {
+        margin-bottom: 12rem;
+    }
+}
+
+.txt--h6 {
+    font-size: clamp(30rem, 4vw, 48rem);
+    margin-bottom: 4vh;
+
+    @media #{$break0} {
+        margin-bottom: 10rem;
+    }
+}
+
+.txt--h5 {
+    font-size: clamp(35rem, 4.5vw, 52rem);
+    margin-bottom: 3vh;
+
+    @media #{$break0} {
+        margin-bottom: 8rem;
+    }
+}
+
+.txt--h4 {
+    font-size: clamp(40rem, 5.5vw, 67rem);
+}
+
+.txt--h3 {
+    font-size: clamp(50rem, 6.5vw, 84rem);
+
+    @media #{$break0} {
+        font-size: 45rem;
+    }
+}
+
+.txt--h2 {
+    font-size: clamp(60rem, 7.5vw, 100rem);
+
+    @media #{$break0} {
+        font-size: 55rem;
+    }
+}
+
+.txt--h1 {
+    font-size: clamp(70rem, 8.5vw, 120rem);
+
+    @media #{$break0} {
+        font-size: 60rem;
+    }
+}
+
+.foot {
+
+    background: url("../../../img/blue-texture.jpg");
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+    align-items: center;
+
+    &__link {
+        font-family: 'Poppins';
+        font-size: 10rem;
+        text-transform: lowercase;
+        color: white;
+        transition: all 0.2s ease-out;
+        &:hover {
+            color: $c-text;
+        }
+    }
+    
+}
