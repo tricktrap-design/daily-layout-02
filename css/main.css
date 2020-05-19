@@ -253,9 +253,9 @@ body {
 
 @font-face {
   font-family: "WaddemChooNFW01-Regular";
-  src: url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.eot");
+  src: url("https://tricktrap.mx/labs/daily-layout-02/fonts/3e255cf6c0d5b475d5f04ad773e016df.eot");
   /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.woff") format("woff"), url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/3e255cf6c0d5b475d5f04ad773e016df.svg#WaddemChooNFW01-Regular") format("svg");
+  src: url("https://tricktrap.mx/labs/daily-layout-01/fonts/3e255cf6c0d5b475d5f04ad773e016df.eot?#iefix") format("embedded-opentype"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/3e255cf6c0d5b475d5f04ad773e016df.woff2") format("woff2"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/3e255cf6c0d5b475d5f04ad773e016df.woff") format("woff"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/3e255cf6c0d5b475d5f04ad773e016df.ttf") format("truetype"), url("https://tricktrap.mx/labs/daily-layout-01/fonts/3e255cf6c0d5b475d5f04ad773e016df.svg#WaddemChooNFW01-Regular") format("svg");
   /* iOS 4.1- */
 }
 .u-hide {
